@@ -41,10 +41,15 @@ public class Inicio extends javax.swing.JFrame {
 
         jLabel2.setText("Constraseña:");
 
-        JbIN.setText("Ingresar");
+        JbIN.setText("Entrar");
         JbIN.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 JbINMouseClicked(evt);
+            }
+        });
+        JbIN.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                JbINActionPerformed(evt);
             }
         });
 
@@ -115,6 +120,10 @@ public class Inicio extends javax.swing.JFrame {
             
         }
     }//GEN-LAST:event_JbINMouseClicked
+
+    private void JbINActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JbINActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_JbINActionPerformed
 
     /**
      * @param args the command line arguments
